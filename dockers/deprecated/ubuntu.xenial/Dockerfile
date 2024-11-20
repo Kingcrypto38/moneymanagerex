@@ -1,4 +1,4 @@
-FROM ubuntu:xenial
+FROM ubuntu:xenial-20210114
 MAINTAINER developers@moneymanagerex.org
 RUN apt-get update && \
     apt-get install -y --no-install-recommends \
